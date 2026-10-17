@@ -1,0 +1,8 @@
+CRÉER L'APK OLYBOOM (sans rien installer sur PC)
+1. Créez un compte gratuit sur github.com, puis un nouveau dépôt (repository) vide.
+2. Cliquez "uploading an existing file" et glissez TOUT le contenu de ce dossier
+   (y compris le dossier .github, www, package.json, capacitor.config.json).
+   Astuce : si .github n'apparaît pas, activez "afficher les fichiers cachés".
+3. Onglet "Actions" > "Build APK" > "Run workflow". Attendez ~5 minutes.
+4. Ouvrez l'exécution terminée > "Artifacts" > téléchargez OlyBoom-APK (zip) > extrayez app-debug.apk.
+5. Sur Android : copiez l'APK, ouvrez-le, autorisez "installer des applications inconnues".
